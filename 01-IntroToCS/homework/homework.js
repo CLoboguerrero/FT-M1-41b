@@ -6,7 +6,7 @@ function BinarioADecimal(num) {
 
    for (let i = 0; i < binNum.length; i++){
       let potencia = Math.pow(2, i) * binNum[i];
-      contador += potencia;
+      contador = contador + potencia;
    }
    return contador;
    // return parseInt(num, 2) <------ Solución con método.
