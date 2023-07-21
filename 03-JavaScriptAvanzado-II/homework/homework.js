@@ -95,7 +95,7 @@ function crearCadena(delimitadorIzquierda, delimitadorDerecha, cadena) {
 
 let textoAsteriscos = crearCadena.bind(this, '*', '*');
 let textoGuiones = crearCadena.bind(this, '-', '-');
-let textoUnderscore = crearCadena.bind(null, '_', '_');
+let textoUnderscore = crearCadena.bind(this, '_', '_');
 
 // No modifiquen nada debajo de esta linea
 // --------------------------------
